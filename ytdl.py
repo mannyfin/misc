@@ -8,9 +8,9 @@ import os
 ytl = read_csv('ytlist.csv', sep='\r', header=None)
 
 ytl = [i for j in ytl.values.tolist() for i in j]
-
-os.mkdir('Vamvakaris')
-os.chdir('Vamvakaris')
+folder_name = 'folder'
+os.mkdir(folder_name)
+os.chdir(folder_name)
 
 class MyLogger(object):
     def debug(self, msg):
