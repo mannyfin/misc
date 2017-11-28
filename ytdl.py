@@ -3,6 +3,10 @@ import youtube_dl
 from pandas import read_csv
 import os
 
+"""
+Disclaimer: By using this code, you (the user) agree to hold me (the creator) harmless for anything you choose to do 
+with this code. This code is to be only used for ethical research and educational purposes. 
+"""
 
 
 ytl = read_csv('ytlist.csv', sep='\r', header=None)
