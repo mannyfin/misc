@@ -1,2 +1,2 @@
 # misc
-random misc stuff
+random misc stuff for learning and playing around. 
